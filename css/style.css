@@ -109,3 +109,17 @@ header ul {
      margin: 0 auto;
      margin-bottom:20px;
 }
+
+/*SECTION 5*/
+
+.about-us {
+    width: 65%;
+    background-color: yellow;
+    height: 600px;
+}
+
+.linkedin {
+    width: 30%;
+    height: 600px;
+    background-color: brown;
+}
