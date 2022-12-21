@@ -1,0 +1,17 @@
+@media screen and (max-width:768px) {
+    header {
+        justify-content: space-between;
+    }
+
+
+    header li {
+        display: none;
+    }
+
+
+    #icon-bars {
+        display: flex;
+        margin-right: 20px;
+    }
+
+}
