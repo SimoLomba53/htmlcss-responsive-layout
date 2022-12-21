@@ -55,6 +55,15 @@
     .about-us {
       height: 1000px;
     }
+
+    .conteiner-six {
+         height: 500px;
+    }
+
+    .end-title {
+        max-width: 500px;
+         height: 250px;
+     }
  }
 @media screen and (max-width:480px) {
     #icon-bars {
@@ -99,4 +108,13 @@
         width: 100%;
         height: 750px;
     }
+
+    .conteiner-six {
+         height: 800px;
+     }
+
+    .end-title {
+        max-width: 350px;
+          height: 400px;
+     }
 }

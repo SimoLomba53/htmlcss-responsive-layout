@@ -123,3 +123,28 @@ header ul {
     height: 600px;
     background-color: brown;
 }
+
+/*SECTION 6*/
+.conteiner-six {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center
+}
+
+.end-title {
+    text-align: center;
+    max-width: 200px;
+    background-color: silver;
+
+}
