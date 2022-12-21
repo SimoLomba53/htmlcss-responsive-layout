@@ -35,6 +35,17 @@
             width: 100%;
             height: 1000px;
     }
+     .testimonials-text {
+         width: 100%;
+         height: 250px;
+         font-size: 30px;
+         margin-top: 5px;
+    }
+    
+     .testimonials {
+         width: 100%;
+         height: 250px;
+     }
  }
 @media screen and (max-width:480px) {
     #icon-bars {
@@ -53,5 +64,15 @@
     .biggest.card {
         height: 800px;
     }
+
+     .testimonials-text {
+       height: 500px;
+        font-size: 35px;
+     }
+    
+     .testimonials {
+        height: 700px;
+         margin-bottom: 40px;
+     }
 
 }
