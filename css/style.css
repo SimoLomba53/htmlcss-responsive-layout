@@ -92,3 +92,20 @@ header ul {
     border-radius: 10px;
     margin-top: 10px;
 }
+
+/*Section-4*/
+ .section-4{
+    background-color: rgb(208, 88, 208);
+ }
+
+.four{
+    margin-top:300px;
+
+}
+.benefits{
+    background-color: aquamarine;
+     width: calc(30%);
+     height: 300px;
+     margin: 0 auto;
+     margin-bottom:20px;
+}
