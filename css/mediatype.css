@@ -22,6 +22,17 @@
     .biggest {
             height: 600px;
     }
+
+    .biggest.card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+     }
+    
+     .biggest img {
+         margin-top: 73px;
+    }
+
     .card:nth-child(2){
             height:600px;
     }
@@ -148,6 +159,28 @@
     .biggest.card {
         height: 800px;
     }
+
+    .biggest.card h1 {
+         margin-top: 30px
+    }
+    
+    .biggest.card p {
+         margin-top: 30px;
+         font-size: 30px;
+         line-height: 40px;
+    }
+    
+     .biggest.card img {
+        margin-top: 84px;
+     }
+    
+     .card h1 {
+         font-size: 30px;
+     }
+    
+     .card p {
+         font-size: 25px;
+     }
 
     .column.two {
          margin-top: -300px
