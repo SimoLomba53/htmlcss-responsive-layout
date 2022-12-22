@@ -177,37 +177,131 @@ header ul {
 
 .about-us {
     width: 65%;
-    background-color: yellow;
     height: 600px;
+}
+
+.about-us h1 {
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.about-us p {
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 35px;
+
+
 }
 
 .linkedin {
     width: 30%;
     height: 600px;
-    background-color: brown;
+}
+
+.linkedin-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.linkedin h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #9792e4;
+    margin-top: 20px;
+
+}
+
+.linkedin button {
+    color: white;
+    background-color: #9792e4;
+    border: 0px solid;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 /*SECTION 6*/
+.section-six {
+    background-color: #9792e4;
+
+
+}
+
 .conteiner-six {
     margin: 0 auto;
     text-align: center;
     max-width: 600px;
-    height: 300px;
+    height: 400px;
     margin-top: 50px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.conteiner-six h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.conteiner-six h1 {
+    color: #fdc15f;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.conteiner-six :first-child {
+    color: #f1f0ff;
+
+}
+
+.conteiner-six :last-child {
+    margin-top: 30px;
+}
+
+.conteiner-six p {
+    color: white;
+    margin-top: 10px;
+}
+
+.conteiner-six button {
+    background-color: white;
+    color: #cfcef2;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 0px solid transparent;
+
 }
 
 /*FOOTER*/
 footer {
     width: 100%;
-    background-color: grey;
+    background-color:rgb(51 51 51);
     display: flex;
     justify-content: center
 }
 
 .end-title {
     text-align: center;
-    max-width: 200px;
-    background-color: silver;
+    max-width: 300px;
+    
 
+}
+
+.end-title p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.end-title span {
+    color: white;
+}
+
+.end-title:last-child {
+    margin-bottom: 30px
 }

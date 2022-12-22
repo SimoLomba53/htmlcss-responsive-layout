@@ -73,6 +73,11 @@
       height: 1000px;
     }
 
+    .about-us p {
+      font-size: 24px;
+    
+     }
+
     .conteiner-six {
          height: 500px;
     }
@@ -81,6 +86,26 @@
         max-width: 500px;
          height: 250px;
      }
+
+    .end-title {
+         max-width: 350px;
+          height: 400px;
+     }
+    
+   .end-title p {
+      font-size: 25px;
+      margin-top: 60px;
+      margin-bottom: 120px;
+   }
+
+   .end-title a {
+      font-size: 25px;
+
+   }
+
+   .end-title span {
+      font-size: 20px;
+   }
  }
 @media screen and (max-width:480px) {
     #icon-bars {
@@ -158,18 +183,65 @@
         height: 1000px;
     
      }
+
+     .about-us p {
+         line-height: 40px;
+         font-size: 25px;
+     }
     
     .linkedin {
         width: 100%;
         height: 750px;
     }
 
+    .linkedin-img {
+         width: 300px;
+         height: 300px;
+    }
+    
+    .linkedin h2 {
+    
+         font-size: 45px;
+    }
+
     .conteiner-six {
          height: 800px;
      }
 
+     .conteiner-six p {
+         margin-top: 20px
+    }
+    
+    .conteiner-six h1 {
+         margin-top: 20px;
+    }
+    
+    .conteiner-six h2 {
+        margin-top: 40px;
+     }
+    
+    .conteiner-six button {
+      margin-top: 40px;
+    }
+
     .end-title {
         max-width: 350px;
-          height: 400px;
+        height: 400px;
+    }
+
+     .end-title p {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    
+    .end-title a {
+         font-size: 30px;
+    
      }
+    
+    .end-title span {
+        font-size: 30px;
+    }
+      
 }
