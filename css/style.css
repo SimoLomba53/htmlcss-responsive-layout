@@ -57,22 +57,87 @@ header ul {
 
 /*SECTION 2*/
 .section-2{
-    background-color: rgb(225, 222, 222);
+    background-color: rgb(149 147 230);
 }
 .conteiner-2 {
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
-    background-color: rgb(154, 61, 241);
+    background-color:rgb(149 147 230);
     margin-top: 200px;
     display: flex;
 
 }
 
+.plan-img1 {
+    height: 350px;
+    width: 350px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.fa-arrow-down {
+    border: 1px solid rgb(149 147 230);
+    background-color: rgb(149 147 230);
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.column h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.column h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#italic-paragraph {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.column.one p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.plan-img2 {
+    width: 200px;
+    height: 200px;
+}
+
 .column {
     width: 50%;
     height: 700px;
-    border: 1px solid black;
+    
 }
 
 /*SECTION-3*/

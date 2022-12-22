@@ -35,6 +35,30 @@
             width: 100%;
             height: 1000px;
     }
+
+    .plan-img1 {
+        width: 100%;
+        height: 100%;
+     }
+    
+     .column h1 {
+         font-size: 80px;
+     }
+    
+     .column.one p {
+         font-size: 20px;
+     }
+    
+     .border img {
+         width: 100%;
+         height: 100%;
+    
+     }
+    
+     .column.two {
+        margin-top: -80px
+     }
+
      .testimonials-text {
          width: 100%;
          height: 250px;
@@ -123,6 +147,10 @@
 
     .biggest.card {
         height: 800px;
+    }
+
+    .column.two {
+         margin-top: -300px
     }
 
     .testimonials-text {
