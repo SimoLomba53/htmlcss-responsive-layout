@@ -34,7 +34,6 @@ header ul {
 
 .conteiner {
     max-width: 1100px;
-    background-color: rgb(43, 60, 248);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -77,39 +76,103 @@ header ul {
 }
 
 /*SECTION-3*/
-.testimonials-text{
-    text-align:center;
+.testimonials-text {
+    text-align: center;
 
 
+}
+
+.testimonials-text h1 {
+    color: rgb(151 146 228)
 }
 
 
 .testimonials {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 1100px;
     height: 200px;
-    background-color: burlywood;
+    background-color:rgb(151 146 228);
     border-radius: 10px;
     margin-top: 10px;
 }
 
+.testimonial-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+.testimonial-date {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.testimonial-date p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.testimonial-date h3 {
+    color: white;
+    font-size: 20px;
+}
+
 /*Section-4*/
  .section-4{
-    background-color: rgb(208, 88, 208);
+    background-color:#9792e4
  }
 
 .four{
     margin-top:300px;
 
 }
-.benefits{
-    background-color: aquamarine;
-     width: calc(30%);
-     height: 300px;
-     margin: 0 auto;
-     margin-bottom:20px;
+.benefits {
+    background-color: white;
+    width: calc(30%);
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10%;
 }
 
+
+.benefits h1 {
+    color: #9792e4;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.benefits h2 {
+    font-weight: bold;
+    color: #9792e4;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.benefits p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.benefits button {
+    background-color: #9792e4;
+    border: 0px solid #9792e4;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+    margin-left: 10px;
+
+}
 /*SECTION 5*/
 
 .about-us {
