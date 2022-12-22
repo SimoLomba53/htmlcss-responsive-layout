@@ -9,6 +9,26 @@
         display: none;
     }
 
+    .conteiner {
+         width: 100%;
+    }
+    
+    .conteiner-2 {
+        width: 100%;
+    }
+    
+    .conteiner.four {
+        width: 100%;
+    }
+    
+     .conteiner-six {
+         width: 100%;
+     }
+    
+    .end-title {
+        width: 100%;
+     }
+
 
     #icon-bars {
         display: inline;
@@ -143,6 +163,26 @@
    }
  }
 @media screen and (max-width:480px) {
+    .conteiner {
+        width: 100%;
+    }
+
+    .conteiner-2 {
+        width: 100%;
+    }
+
+    .conteiner.four {
+        width: 100%;
+    }
+
+    .conteiner-six {
+        width: 100%;
+    }
+
+    .end-title {
+        width: 100%;
+    }
+    
     #icon-bars {
         margin-right: 30px;
     }
